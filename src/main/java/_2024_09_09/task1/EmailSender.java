@@ -1,5 +1,6 @@
 package _2024_09_09.task1;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component("emailSender")
@@ -11,7 +12,14 @@ public class EmailSender {
     }
 
     public void sendEmail(){
-        System.out.println("Sendign email " + messageGenerator);
+        System.out.println("Send email " + messageGenerator);
+    }
+
+    @Override
+    public String toString() {
+        return "EmailSender{" +
+                "messageGenerator=" + messageGenerator +
+                '}';
     }
 }
 

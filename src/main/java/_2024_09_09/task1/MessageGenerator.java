@@ -14,4 +14,11 @@ public class MessageGenerator {
         LocalDateTime localDateTime = LocalDateTime.now();
         this.message = "Message " + localDateTime.toString();
     }
+
+    @Override
+    public String toString() {
+        return "MessageGenerator{" +
+                "message='" + message + '\'' +
+                '}';
+    }
 }

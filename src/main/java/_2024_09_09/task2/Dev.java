@@ -24,5 +24,6 @@ public class Dev {
         System.out.println(electricCar);
 
         System.out.println(exrCar);
+        context.close();
     }
 }
