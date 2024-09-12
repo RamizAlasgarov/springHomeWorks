@@ -11,7 +11,7 @@ public class EmailSender {
     }
 
     public void sendEmail(){
-        System.out.println("Sendign email " + messageGenerator.);
+        System.out.println("Sendign email " + messageGenerator);
     }
 }
-}
+
