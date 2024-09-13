@@ -17,7 +17,7 @@ public class Dev {
         EmailSender emailSender = context.getBean("emailSender", EmailSender.class);
         SmsSender smsSender = context.getBean("smsSender", SmsSender.class);
         SmsSender smsSender1 = context.getBean("smsSender", SmsSender.class);
-//        emailSender.sendEmail();
+        emailSender.sendEmail();
         smsSender.sendSms();
         smsSender1.sendSms();
 
